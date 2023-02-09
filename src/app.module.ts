@@ -7,7 +7,7 @@ import { ContactModule } from './contact/contact.module'
 @Module({
     imports: [
         ContactModule,
-        MongooseModule.forRoot('mongodb+srv://admin:UfcapRMIiuvH5Dfj@myws.3fyc6fy.mongodb.net/?retryWrites=true&w=majority', {
+        MongooseModule.forRoot('', {
             dbName: 'main',
         }),
     ],
